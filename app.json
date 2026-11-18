@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "RockPaperSnap",
+    "slug": "rockpapersnap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "rockpapersnap",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/appIcon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/images/appIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/appIcon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": { "bundler": "metro" }
+  }
+}
